@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+}
+
+.container-encontra-experto{
+    background-image: url(/assets/img/pexels-diego-ortiz-72152225-16243157.jpg);
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100% !important;
+    min-width: 100%;
+    border: #404446 solid 4px;
+}
+
+.titulo-encontra{
+    background-color:#f4d80c;
+    display: inline-block;
+    margin-top: 200px;
+    font-size: 65px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    color: #070707;
+}
+
+.titulo-encontra-2{
+    background-color:#f4d80c;
+    display: inline-block;
+    margin-left: 167px;
+    font-size: 65px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #070707;
+
+}
+
+.container-textos-encontra{
+    position: relative;
+    left: 50px;
+}
+ 
+.container-imagenes-expertos{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    right: 60px;
+}
+
+.container-img-mix{
+    color: white;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+}
+
+.container-img-mix p{
+    margin-top: 20px;
+}
+
+.container-imagenes-expertos img{
+    height: auto;
+    overflow: hidden;
+  
+}
+
+
+.container-contacto{
+    height: 1000px;
+    width: 100%;
+    background-color: #f4d80c;
+    min-width: 100%;
+}
+
+.titulo-contactanos{
+    font-size: 70px;
+    font-weight: 700;
+    color: #070707;
+    padding-top: 100px;
+}
+
+#contactForm{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+   
+}
+
+.container-inputs{
+    display: flex;
+    justify-content: center;
+}
+
+#contactForm input{
+    padding: 20px;
+    width: 400px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+
+
+.container-mensaje-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.text-area{
+    height: 300px;
+    min-width: 100%;
+}
+
+.container-boton-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px !important;
+}
+
+.btn-primary{
+    width: 200px;
+    --bs-btn-bg : rgb(92, 92, 92) !important;
+    text-decoration: none;
+    border: #070707 solid 1px !important;
+    background-color: #202323;
+    border-radius: 40px !important;
+}
+
+.btn-primary:hover{
+    width: 200px;
+    text-decoration: none;
+    background-color: #404446 !important;
+   
+}
