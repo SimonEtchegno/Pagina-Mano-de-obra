@@ -589,5 +589,31 @@
         flex-wrap: wrap;
         margin: auto !important;
     }
-
 }
+
+    @media screen and (max-width: 600px){
+        .titulo-encontra {
+            background-color: #f4d80c;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 25px;
+            padding-bottom: 10px;
+            margin-bottom: 3px;
+            font-weight: 700;
+            color: #070707;
+        }
+    
+        .titulo-encontra-2 {
+            background-color: #f4d80c;
+            display: inline-block;
+            margin-left: 70px;
+            font-size: 25px;
+            padding-bottom: 5x;
+            font-weight: 700;
+            color: #070707;
+    
+        }
+
+
+
+    }
