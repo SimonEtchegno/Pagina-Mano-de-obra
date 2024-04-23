@@ -587,6 +587,10 @@
 
   }
 
+  .nav-link:hover{
+    color: #b8b8b8 !important;
+  }
+
   .nav-item a{
     margin-right: 0px !important;
 
@@ -631,6 +635,9 @@
     background-color: black;
     width: 150px;
     padding-bottom: 24px;
+    padding-top: 20px;
+    padding-left: 10px;
+
     margin: 0px !important;     
     font-size: 20px;
   }
@@ -641,14 +648,15 @@
     width: auto !important ;
     padding: 0px !important;
     position: relative;
-    left: 20px !important;
+    left: 50px !important;
+    bottom: 40px !important;
   }
 
   .titulo-encontra {
     background-color: #f4d80c;
     display: inline-block;
     margin-top: 10px;
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 10px;
     margin-bottom: 3px;
     margin-top: 50px;
@@ -659,20 +667,28 @@
   .titulo-encontra-2 {
     background-color: #f4d80c;
     display: inline-block;
-    margin-left: 98px;
-    font-size: 35px;
-    padding-bottom: 5x;
+    margin-left: 85px;
+    font-size: 30px;
+    padding-bottom: 5px;
     font-weight: 700;
     color: #070707;
   }
 
-  .container-cons-varios {
-    flex-wrap: wrap !important;
+  .container-imagenes-expertos {
+    padding-top: 70px !important;
+    margin-bottom: 50px;
   }
 
-  .img-varios {
-    margin-bottom: 40px !important;
+  .img-varios{
+    margin-bottom: 0px !important;
   }
+
+  .container-cons-varios {
+    flex-wrap: wrap !important;
+    position: relative;
+    bottom: 30px;
+  }
+
   .titulo {
     font-size: 26px !important;
   }
@@ -695,6 +711,7 @@
 
   .titulo-contactanos {
     margin-top: 10px !important;
+    font-size: 30px;
   }
 
   .btn-primary {
