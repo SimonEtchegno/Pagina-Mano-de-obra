@@ -506,7 +506,7 @@
         background-image: url(/assets/img/back2.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: auto;
+        height: 110vh;
         width: 100% !important;
         border: #404446 solid 4px;
     }
